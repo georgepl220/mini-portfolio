@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Стилізація Footer
 const FooterContainer = styled.footer`
   background-color: #34495e;
   color: #ecf0f1;
@@ -29,13 +28,13 @@ const Footer = () => {
     <FooterContainer>
       <p>Зв'язок зі мною:</p>
       <div>
-        <FooterLink href="https://github.com/your-username" target="_blank">
+        <FooterLink href="https://github.com/georgepl220" target="_blank">
           GitHub
         </FooterLink>
-        <FooterLink href="https://www.linkedin.com/in/your-profile" target="_blank">
+        <FooterLink href="https://www.linkedin.com" target="_blank">
           LinkedIn
         </FooterLink>
-        <FooterLink href="https://twitter.com/your-profile" target="_blank">
+        <FooterLink href="https://twitter.com" target="_blank">
           Twitter
         </FooterLink>
       </div>
